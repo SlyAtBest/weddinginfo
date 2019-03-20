@@ -1,3 +1,56 @@
-.body {
+.navigation {
+	background-color: darkgrey;
+	width: 100%;
+	height: 2em;
+	cursor: pointer;
+	transition: box-shadow 0.5s;
+}
+
+.navigation:hover {
+	box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2);
+}
+
+.splashscreen {
+	width: 100%;
+	height: auto;
+	background-color: lightgrey;
+}
+
+.top-graphic {
+	width: 25%;
+	height: auto;
+}
+
+.grid-container {
+	width: 100%;
+	margin: 0;
+	height: 800px;
+	display: grid;
+	grid-template-columns: auto 33% auto;
+}
+
+.infotext {
+	grid-column: 2;
+	height: auto;
+	font-family: 'Dancing Script', cursive;
+	background-color: navy;
+}
+
+.footer {
+	width: 100%;
+	height: 400px;
+	background-color: lightgrey;
+}
+
+.bottom-graphic {
+	width: 100%;
+	height: auto;
+}
+
+body {
 	display: inline-block;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
 }
