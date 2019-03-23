@@ -58,6 +58,13 @@ body {
 	height: auto;
 	text-align: center;
 	position: relative;
+	font-size: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		font-size: 120%;
+	}
 }
 
 html {
