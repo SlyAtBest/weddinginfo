@@ -1,14 +1,22 @@
 .main-container {
 	position:relative;
-	height: 100%;
-	padding-bottom: 15%;
 }
 .navigation {
-	background-color: darkgrey;
+	background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #FFFFFF 0%,#747880 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
 	width: 100%;
 	height: 2em;
 	cursor: pointer;
 	transition: box-shadow 0.5s;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-right: 5px;
 }
 
 .navigation:hover {
@@ -17,12 +25,10 @@
 
 .splashscreen {
 	width: 100%;
-	height: auto;
 }
 
 .top-graphic {
 	width: 25%;
-	height: auto;
 }
 
 .grid-container {
@@ -38,13 +44,11 @@
 
 .footer {
 	width: 100%;
-	position: absolute;
-	bottom: 0;
+	position:relative;
 }
 
 .bottom-graphic {
 	width: 100%;
-	height: auto;
 }
 
 h1, h2 {
@@ -54,21 +58,14 @@ h1, h2 {
 body {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	margin: 0;
-	height: auto;
+	height: 100%;
 	text-align: center;
 	position: relative;
-	font-size: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-	body {
-		font-size: 200%;
-	}
 }
 
 html {
-	height: 100vh;
-	width: 100vw;
-	min-height: 100vh;
+	height: 100%;
+	width: 100%;
 }
