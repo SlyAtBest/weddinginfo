@@ -2,13 +2,13 @@
 	position:relative;
 }
 .navigation {
-	background: #F3AAAA; /* Old browsers */
-    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+	background: #747880; /* Old browsers */
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #747880 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#747880)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, #FFFFFF 0%,#747880 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
-    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+    background: -o-linear-gradient(top, #FFFFFF 0%,#747880 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #FFFFFF 0%,#747880 100%); /* IE10+ */
+    background: linear-gradient(top, #FFFFFF 0%,#747880 100%); /* W3C */
 	width: 100%;
 	height: 2em;
 	cursor: pointer;
