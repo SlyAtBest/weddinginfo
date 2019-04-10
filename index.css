@@ -51,8 +51,19 @@
 	width: 100%;
 }
 
+.poem {
+	text-align: center;
+}
+
 h1, h2 {
 	font-family: 'Dancing Script', cursive;
+	font-size: 3em;
+}
+
+p {
+	font-size: 1em;
+	text-align: justify;
+	font-family: "Courier New", lucida, console, monospace;
 }
 
 body {
