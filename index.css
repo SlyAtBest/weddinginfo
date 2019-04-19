@@ -10,13 +10,37 @@
     background: -ms-linear-gradient(top, #FFFFFF 0%,#747880 100%); /* IE10+ */
     background: linear-gradient(top, #FFFFFF 0%,#747880 100%); /* W3C */
 	width: 100%;
-	height: 2em;
+	height: 2.5em;
 	cursor: pointer;
 	transition: box-shadow 0.5s;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
-	padding-right: 5px;
+	justify-content: center;
+	font-family: 'Dancing Script', cursive;
+}
+
+a{
+	outline: none;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-size: 1.5em;
+	transition: text-shadow 0.5s;
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-shadow: 2px 2px 5px green;
+}
+
+a:active {
+	text-decoration: none;
+	color: black;
 }
 
 .navigation:hover {
