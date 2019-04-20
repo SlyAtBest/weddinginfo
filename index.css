@@ -119,7 +119,19 @@ a:hover {
 a:active {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background: #747880;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #747880 0%, #FFFFFF 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #747880), color-stop(100%, #FFFFFF));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #747880 0%, #FFFFFF 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #747880 0%, #FFFFFF 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #747880 0%, #FFFFFF 100%);
+    /* IE10+ */
+    background: linear-gradient(top, #747880 0%, #FFFFFF 100%);
 }
 
 body {
