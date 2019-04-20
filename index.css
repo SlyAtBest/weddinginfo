@@ -78,6 +78,11 @@
     text-align: center;
 }
 
+.current-page {
+	border-style: inset;
+	text-shadow: 2px 2px 5px green;
+}
+
 h1,
 h2 {
     font-family: 'Dancing Script', cursive;
@@ -97,6 +102,8 @@ a {
     font-size: 1.5em;
     transition: text-shadow 0.5s;
     text-decoration: none;
+    border-style: outset;
+    border-color: white;
     color: black;
 }
 
@@ -106,12 +113,13 @@ a:visited {
 }
 
 a:hover {
-    text-shadow: 2px 2px 5px green;
+    text-shadow: 2px 2px 5px #ffa07a;
 }
 
 a:active {
     text-decoration: none;
     color: black;
+    background-color: white;
 }
 
 body {
