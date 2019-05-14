@@ -83,6 +83,55 @@
 	text-shadow: 2px 2px 5px green;
 }
 
+.menu-button {
+    outline: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 1.5em;
+    transition: text-shadow 0.5s;
+    text-decoration: none;
+    border-style: outset;
+    border-color: white;
+    color: black;
+}
+
+.menu-button:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-button:hover {
+    text-shadow: 2px 2px 5px #ffa07a;
+}
+
+.menu-button:active {
+    text-decoration: none;
+    color: black;
+    background: #747880;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #747880 0%, #FFFFFF 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #747880), color-stop(100%, #FFFFFF));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #747880 0%, #FFFFFF 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #747880 0%, #FFFFFF 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #747880 0%, #FFFFFF 100%);
+    /* IE10+ */
+    background: linear-gradient(top, #747880 0%, #FFFFFF 100%);
+}
+
+.hotel, .taxi {
+    font-size: 1.7em;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.fully-booked {
+	text-decoration: line-through;
+}
+
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 3.5em;
@@ -104,45 +153,6 @@ ul {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     list-style-position: inside;
-}
-
-a {
-    outline: none;
-    padding-right: 30px;
-    padding-left: 30px;
-    font-size: 1.5em;
-    transition: text-shadow 0.5s;
-    text-decoration: none;
-    border-style: outset;
-    border-color: white;
-    color: black;
-}
-
-a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-shadow: 2px 2px 5px #ffa07a;
-}
-
-a:active {
-    text-decoration: none;
-    color: black;
-    background: #747880;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #747880 0%, #FFFFFF 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #747880), color-stop(100%, #FFFFFF));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #747880 0%, #FFFFFF 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #747880 0%, #FFFFFF 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #747880 0%, #FFFFFF 100%);
-    /* IE10+ */
-    background: linear-gradient(top, #747880 0%, #FFFFFF 100%);
 }
 
 body {
